@@ -157,10 +157,6 @@ public class Calculator implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         Object source = e.getSource();
-      /*  if (source == onRadioButton) {
-            enable();
-        } else if (source == offRadioButton) {
-            disable(); }   */
          if (source == buttonClear) {
             label.setText("");
             textField.setText("");
@@ -296,8 +292,8 @@ public class Calculator implements ActionListener {
         }
     }
       public void enable() {
-        onRadioButton.setEnabled(false);
-        offRadioButton.setEnabled(true);
+    //    onRadioButton.setEnabled(false);
+    //    offRadioButton.setEnabled(true);
         textField.setEnabled(true);
         label.setEnabled(true);
         buttonClear.setEnabled(true);
