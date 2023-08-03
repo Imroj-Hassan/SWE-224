@@ -8,8 +8,6 @@ public class Calculator implements ActionListener {
     JFrame frame;
     JLabel label = new JLabel();
     JTextField textField = new JTextField();
-    JRadioButton onRadioButton = new JRadioButton("on");
-    JRadioButton offRadioButton = new JRadioButton("off");
     JButton buttonZero = new JButton("0");
     JButton buttonOne = new JButton("1");
     JButton buttonTwo = new JButton("2");
@@ -57,7 +55,6 @@ public class Calculator implements ActionListener {
         textField.setEditable(false);
         textField.setHorizontalAlignment(SwingConstants.RIGHT);
         frame.add(textField);
-        frame.add(offRadioButton);
         buttonSeven.setBounds(10, 230, 60, 40);
         buttonSeven.setFont(new Font("Arial", Font.BOLD, 20));
         frame.add(buttonSeven);
@@ -315,4 +312,4 @@ public class Calculator implements ActionListener {
         buttonEqual.setEnabled(true);
         buttonZero.setEnabled(true);
         buttonDot.setEnabled(true);
-    }
+    }}
