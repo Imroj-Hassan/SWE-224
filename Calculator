@@ -94,7 +94,7 @@ public class Calculator implements ActionListener {
         frame.add(buttonEqual);
         buttonDiv.setBounds(220, 110, 60, 40);
         buttonDiv.setFont(new Font("Arial", Font.BOLD, 20));
-        buttonDiv.setBackground(new Color(239, 188, 200));
+        buttonDiv.setBackground(new Color(135, 206, 235));
         frame.add(buttonDiv);
         buttonSqrt.setBounds(10, 170, 60, 40);
         buttonSqrt.setFont(new Font("Arial", Font.BOLD, 18));
