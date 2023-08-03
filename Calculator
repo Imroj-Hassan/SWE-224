@@ -58,9 +58,6 @@ public class Calculator implements ActionListener {
         textField.setHorizontalAlignment(SwingConstants.RIGHT);
         frame.add(textField);
         frame.add(offRadioButton);
-       // ButtonGroup buttonGroup = new ButtonGroup();
-      //  buttonGroup.add(onRadioButton);
-      //  buttonGroup.add(offRadioButton);
         buttonSeven.setBounds(10, 230, 60, 40);
         buttonSeven.setFont(new Font("Arial", Font.BOLD, 20));
         frame.add(buttonSeven);
@@ -160,11 +157,11 @@ public class Calculator implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         Object source = e.getSource();
-        if (source == onRadioButton) {
+      /*  if (source == onRadioButton) {
             enable();
         } else if (source == offRadioButton) {
-            disable();
-        } else if (source == buttonClear) {
+            disable(); }   */
+         if (source == buttonClear) {
             label.setText("");
             textField.setText("");
         } else if (source == buttonDelete) {
